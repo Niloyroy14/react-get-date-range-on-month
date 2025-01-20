@@ -1,0 +1,48 @@
+{
+  "name": "react-get-date-range-on-month",
+  "version": "1.0.0",
+  "description": "This package allows you to choose the year and month to get the start and end dates.",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Niloyroy14/react-get-date-range-on-month.git"
+  },
+  "keywords": [
+    "npm",
+    "react-get-date-range-on-month",
+    "react-get-date-on-month",
+    "react-month",
+    "react-get-date-range"
+  ],
+  "author": "Niloy Roy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Niloyroy14/react-get-date-range-on-month/issues"
+  },
+  "homepage": "https://github.com/Niloyroy14/react-get-date-range-on-month#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "react": "^19.0.0",
+    "react-bootstrap": "^2.10.7",
+    "react-dom": "^19.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+  }
+}

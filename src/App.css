@@ -1,0 +1,152 @@
+.report-container{
+    background: #fff;
+    margin: 10px auto;
+    display: flex;
+}
+
+.reportInput-container{
+    background: #fff;
+    box-sizing: border-box;
+    padding: 20px 0;
+    border-radius: 10px;
+    border: 1px solid rgb(211, 211, 211);
+    margin: 20px;
+    height: 100px; 
+}
+
+.form-container{
+    width: 100%;
+}
+
+.reportFieldPortion{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.filterOption{
+    /* margin: 10px; */
+    text-align: center;
+    width: 100%;
+    
+}
+
+.myDatePickerInputStyle{
+    height: 42px !important;
+    text-align: center;
+    
+}
+.dateInput{ 
+    margin-left: 10px;
+}
+
+.dateInput label{
+    font-size: 18px;
+}
+
+
+.noRecord{
+    padding: 80px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* 
+.downloadButtonPortion button{
+    background-color: black !important;
+    color:white !important;
+} */
+
+
+
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+    /* .searchButton{
+        margin-left: 15px;
+    } */
+}
+
+
+
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+    .filterOption{
+        width: 100% !important;
+    }
+    .monthRow{
+        margin-top: 10px;
+    }
+    .searchButton{
+        margin-top: 13px;
+        margin-left: 123px;
+    }
+    .excelButton{
+        margin-top: 10px;
+        margin-left: 110px;
+     }
+     .pdfButton{
+        margin-top: 10px;
+        margin-left: 100px;
+     }
+    /* .endDatePortion{
+        margin-top: 5px;
+    } */
+}
+
+/* IPAD air */
+@media only screen and (min-width: 820px) and (max-width: 1180px)  {
+       
+    .filterOption{
+       width: 100% !important;
+    }
+    .monthRow{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .yearRow{
+        width: 100%;
+    }
+    .searchButtonRow{
+        width: 100%;
+    }
+    .excelButtonportionRow{
+        width: 100%;
+    }
+    .pdfButtonportionRow{
+        width: 100%;
+    }
+    .searchButton{
+        margin-top: 20px;
+        margin-left: 253px !important;
+     }
+     .excelButton{
+        margin-top: 10px;
+        margin-left: 237px;
+     }
+     .pdfButton{
+        margin-top: 10px;
+        margin-left: 225px;
+     }
+    
+}
+
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+}
+
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (-webkit-min-device-pixel-ratio: 1) {
+    
+  /* .searchButton{
+      margin-left: 10px;
+   } */
+/* 
+   .endDatePortion{
+      margin-left: 1px;
+   } */
+
+
+}
