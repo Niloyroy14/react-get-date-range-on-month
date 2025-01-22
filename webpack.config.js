@@ -1,11 +1,12 @@
 const path = require('path');
 module.exports = {
-  entry: "/src/App.js",
+  entry: "./src/DateRangeOnSelectYearMonthPicker.js",
   mode: "production",
   output: {
     path: path.resolve("dist"),
-    filename:"main.js"
-   // libraryTarget:"commonjs"
+    filename:"index.js",
+    libraryTarget:"commonjs",
+    library: 'DateRangeOnSelectYearMonthPicker',
   },
 
   module: {
