@@ -16,9 +16,9 @@ A customizable and easy-to-use date range picker component for React. This packa
 
 To use the `react-get-date-range-on-year-month` component in your project, run the following command:
 
-```bash
+```console
 npm install react-get-date-range-on-year-month
- 
+ ```
 
 ## Example Usage
 
@@ -26,9 +26,9 @@ To use the `DateRangeOnSelectYearMonthPicker` component in your React applicatio
 
 ### Code Example:
 
-```jsx
+```console
 import React, { useState } from 'react';
-import { DateRangeOnSelectYearMonthPicker } from 'react-get-date-range-on-year-month';
+import  DateRangeOnSelectYearMonthPicker  from 'react-get-date-range-on-year-month';
 
 function App() {
 
@@ -57,3 +57,31 @@ function App() {
 }
 
 export default App
+
+ ```
+
+## Customizing the CSS
+
+This package includes a default CSS file that you can modify as needed. 
+
+### Importing the Default CSS
+To use the default styles, import the CSS in your project:
+```console
+import 'react-get-date-range-on-year-month/dist/DateRangeOnSelectYearMonthPicker.css';
+ ```
+
+##Customizing the Styles
+
+You can override the styles by adding your own CSS rules. For example:
+
+```console
+/* Override default styles */
+.reportInput_container {
+  background-color: lightblue;
+}
+
+input.form-control {
+  border-color: red;
+}
+
+ ```
