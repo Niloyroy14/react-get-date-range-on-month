@@ -12,6 +12,9 @@ A customizable and easy-to-use date range picker component for React. This packa
 - Callback function (`onDateChange`) to get the selected date range (start date and end date).
 
 
+![Demo Image ](https://github.com/Niloyroy14/react-get-date-range-on-month/blob/main/public/sample.png)
+
+
 ## Installation
 
 To use the `react-get-date-range-on-year-month` component in your project, run the following command:
@@ -70,7 +73,7 @@ To use the default styles, import the CSS in your project:
 import 'react-get-date-range-on-year-month/dist/DateRangeOnSelectYearMonthPicker.css';
  ```
 
-##Customizing the Styles
+## Customizing the Styles
 
 You can override the styles by adding your own CSS rules. For example:
 
