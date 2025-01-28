@@ -113,7 +113,7 @@ const DateRangeOnSelectYearMonthPicker = ({ onDateChange }) => {
                 {selectedYear && selectedMonth && (
                   <>
                     <div className='col-md-3 col-lg-3 col-sm-12 mt-4 mt'>
-                      <label> Start date: </label>
+                      <label> Start Date: </label>
                       <input type="text" name="startdate" className='form-control' value={startDate} readOnly />
                     </div>
 

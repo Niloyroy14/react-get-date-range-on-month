@@ -1,6 +1,6 @@
 {
   "name": "react-get-date-range-on-year-month",
-  "version": "3.0.1",
+  "version": "3.0.3",
   "description": "This package allows you to choose the year and month to get the start and end dates.",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
